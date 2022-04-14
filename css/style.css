@@ -493,7 +493,7 @@ a {
 }
 
 .non-selected-pricing-lane {
-  height: 637px;
+  /* height: 637px; */
 }
 
 .pricing-item-bold {
