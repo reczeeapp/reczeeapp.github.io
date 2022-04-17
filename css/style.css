@@ -54,7 +54,8 @@ a {
   line-height: 10px;
 }
 
-.menu-button, .close-drawer {
+.menu-button,
+.close-drawer {
   cursor: pointer;
 }
 
@@ -81,6 +82,7 @@ a {
   cursor: pointer;
   width: fit-content;
 }
+
 .nav-button:hover {
   color: #1774e4;
 }
@@ -106,6 +108,7 @@ a {
 .nav-button a:hover {
   color: #1774e4;
 }
+
 .footer-button {
   padding: 12px 8px;
   width: fit-content;
@@ -129,6 +132,7 @@ a {
 .on-hover {
   opacity: 1 !important;
 }
+
 .on-hover:hover {
   opacity: 0.8 !important;
 }
@@ -146,11 +150,12 @@ a {
   line-height: 18px;
   cursor: pointer;
 }
+
 .blue-button:hover {
   /*background: white;
   color: #1774e4;
   border: 1px solid #1774e4;*/
-  opacity:  0.9;
+  opacity: 0.9;
 }
 
 .green-button {
@@ -166,16 +171,22 @@ a {
   font-size: 16px;
   line-height: 20px;
   cursor: pointer;
-  -webkit-touch-callout: none; /* iOS Safari */
-  -webkit-user-select: none; /* Safari */
-  -khtml-user-select: none; /* Konqueror HTML */
-  -moz-user-select: none; /* Old versions of Firefox */
-  -ms-user-select: none; /* Internet Explorer/Edge */
-  user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Old versions of Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
 }
 
 .green-button:hover {
-  opacity:  0.9;
+  opacity: 0.9;
   cursor: pointer;
 }
 
@@ -243,11 +254,17 @@ a {
 .fs18 {
   font-size: 18px !important;
 }
+
 .fs16 {
   font-size: 16px !important;
 }
+
 .fs14 {
   font-size: 14px !important;
+}
+
+.fs11 {
+  font-size: 11px !important;
 }
 
 .fw-semibold {
@@ -325,9 +342,11 @@ a {
   padding: 24px;
   font-size: 18px;
 }
+
 .accordion-button:focus {
   box-shadow: none;
 }
+
 .accordion-button:not(.collapsed) {
   color: #1774e4;
   background-color: white;
@@ -357,7 +376,8 @@ a {
     right: 24px;
     bottom: 24px;
   }
-/*
+
+  /*
   .green-button {
     margin:  auto;
   }
@@ -368,13 +388,16 @@ a {
   .starter-price {
     font-size: 18px;
   }
+
   .starter-price-small-text {
     font-size: 10px;
     line-height: 8px;
   }
+
   .pricing-button-filled {
     font-weight: 300;
   }
+
   .pricing-button-ouline {
     font-weight: 300;
   }
@@ -385,17 +408,21 @@ a {
     right: 24px;
     bottom: 24px;
   }
+
   .green-button {
-    margin:  auto;
+    margin: auto;
   }
+
   .top-landing-page-section {
     text-align: center;
   }
+
   .footer-button {
     padding: 8px 4px;
     font-size: 16px;
     line-height: 20px;
   }
+
   .hero-desktop {
     background-image: url("/img/assets/Home/hero_bg_mobile.svg");
     background-size: cover;
@@ -403,6 +430,7 @@ a {
     height: 60vh;
     margin: 0;
   }
+
   .footer-desktop {
     background-image: url("/img/assets/Home/footer_bg_mobile.png");
     background-size: cover;
@@ -414,18 +442,22 @@ a {
     font-size: 20px;
     line-height: 28px;
   }
+
   .card-icon {
     width: 24px;
     height: 24px;
   }
+
   .icon-container {
     padding: 16px;
   }
+
   .card-container {
     margin-top: 32px;
     padding: 48px 24px 24px;
     min-height: 60px;
   }
+
   /*.card-container .card-subtitle {
     display: none;
   }
@@ -438,12 +470,15 @@ a {
   .form-container {
     width: 100%;
   }
+
   .fs18 {
     font-size: 16px !important;
   }
+
   .fs16 {
     font-size: 14px !important;
   }
+
   .fs14 {
     font-size: 12px !important;
   }
@@ -451,14 +486,17 @@ a {
   .faq-container {
     width: 100%;
   }
+
   .accordion-button {
     padding: 24px 0;
     font-size: 16px;
   }
+
   .accordion-body {
     padding: 1rem 0;
     font-size: 16px;
   }
+
   .accordion-body {
     font-size: 14px;
   }
@@ -470,12 +508,15 @@ a {
     padding: 48px 24px 24px;
     min-height: 220px;
   }
+
   .top-landing-page-section {
     text-align: center;
   }
+
   .pricing-button-filled {
     font-weight: 300;
   }
+
   .pricing-button-ouline {
     font-weight: 300;
   }
@@ -493,6 +534,15 @@ a {
 .pricing-item-bold {
   padding: 12px 24px;
   font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  color: white;
+  text-align: center;
+}
+
+.pricing-item-bold-main {
+  padding: 12px 10px;
+  font-size: 14px;
   font-weight: 500;
   line-height: 20px;
   color: white;
@@ -605,7 +655,7 @@ a {
 
 .feature-title {
   margin-top: -0.5em;
-  margin-bottom:  0.5em;
+  margin-bottom: 0.5em;
   font-weight: 400;
 }
 
@@ -633,6 +683,7 @@ a {
     line-height: 18px;
     color: #363d53;
   }
+
   .pricing-item-bold {
     padding: 8px 0;
     font-size: 14px;
@@ -642,4 +693,3 @@ a {
     text-align: left;
   }
 }
-
