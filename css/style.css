@@ -32,6 +32,16 @@ a {
   width: 160px;
 }
 
+.chevron-check-circle-blue {
+  font-size: 20px;
+  color: #1774e4;
+}
+
+.chevron-check-circle-white {
+  font-size: 20px;
+  color: white;
+}
+
 .logo-svg-mobile {
   width: 120px;
 }
@@ -526,14 +536,14 @@ a {
 
 .pricing-item {
   padding: 12px 24px;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 20px;
   color: #363d53;
 }
 
 .pricing-item-bold {
   padding: 12px 24px;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 500;
   line-height: 20px;
   color: white;
