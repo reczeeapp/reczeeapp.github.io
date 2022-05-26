@@ -293,13 +293,45 @@ a {
   width: fit-content;
   position: absolute;
   padding: 24px;
-  background: #ffffff;
-  border: 1px solid #3f3d56;
-  border-radius: 48px;
+  background: linear-gradient(323deg, #3aa5b5 3.15%, #0760f7 100%);
+  color: white;
+  border-radius: 50%;
   top: 0;
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.pricing-card-overview {
+  width: fit-content;
+  min-width: 200px;
+  position: absolute;
+  padding: 24px;
+  background: linear-gradient(323deg, #3aa5b5 3.15%, #0760f7 100%);
+  font-weight: 500;
+  border-radius: 10px;
+  top: 0;
+  color: white;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.pricing-card-container {
+  width: 100%;
+  position: relative;
+  text-align: center;
+  font-size: 16px;
+  line-height: 20px;
+  background: #ffffff;
+  border: 1px solid #3b3b3b;
+  padding: 46px 24px 24px 24px;
+  border-radius: 10px;
+  min-height: 190px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 
 .card-container {
   width: 100%;
@@ -323,6 +355,13 @@ a {
   font-weight: 500;
   font-size: 24px;
   line-height: 28px;
+}
+
+.pricing-card-title {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 28px;
+  margin-bottom: 15px;
 }
 
 /*.card-container .card-subtitle,
@@ -395,6 +434,13 @@ a {
     text-align: center;
   }
 */
+
+  .pricing-card-title {
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 28px;
+  }
+
   .starter-price {
     font-size: 18px;
   }
@@ -450,6 +496,12 @@ a {
 
   .card-title {
     font-size: 20px;
+    line-height: 28px;
+  }
+
+  .pricing-card-title {
+    font-weight: 300;
+    font-size: 22px;
     line-height: 28px;
   }
 
@@ -529,6 +581,12 @@ a {
 
   .pricing-button-ouline {
     font-weight: 300;
+  }
+
+  .pricing-card-title {
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 28px;
   }
 }
 
@@ -701,5 +759,11 @@ a {
     font-weight: 500;
     color: white;
     text-align: left;
+  }
+
+  .pricing-card-title {
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 28px;
   }
 }
