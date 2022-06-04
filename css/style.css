@@ -357,6 +357,12 @@ a {
   line-height: 28px;
 }
 
+#youtube-demo-container {
+  border-radius: 8px;
+  aspect-ratio: 16 / 9;
+  width: 70%;
+}
+
 .pricing-card-title {
   font-weight: 400;
   font-size: 25px;
@@ -426,6 +432,10 @@ a {
     bottom: 24px;
   }
 
+  #youtube-demo-container {
+    width: 90%;
+  }
+
   /*
   .green-button {
     margin:  auto;
@@ -478,6 +488,11 @@ a {
     font-size: 16px;
     line-height: 20px;
   }
+
+  #youtube-demo-container {
+    width: 95%;
+  }
+
 
   .hero-desktop {
     background-image: url("/img/assets/Home/hero_bg_mobile.svg");
