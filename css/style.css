@@ -168,18 +168,19 @@ a {
   opacity: 0.9;
 }
 
-.green-button {
-  background: #3ecf8e;
+.green-outlined-button {
+  background: #3ecf8e00;
   color: white;
   border: 1px solid #3ecf8e;
-  padding: 16px 48px;
+  text-align: center;
+  padding: 12px 34px;
   width: fit-content;
   border-radius: 4px;
   text-transform: uppercase;
   font-weight: 500;
   letter-spacing: 0.4px;
   font-size: 16px;
-  line-height: 20px;
+  /* line-height: 20px; */
   cursor: pointer;
   -webkit-touch-callout: none;
   /* iOS Safari */
@@ -193,6 +194,40 @@ a {
   /* Internet Explorer/Edge */
   user-select: none;
   /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+
+.green-button {
+  background: #3ecf8e;
+  color: white;
+  border: 1px solid #3ecf8e;
+  padding: 12px 48px;
+  width: fit-content;
+  border-radius: 4px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+  font-size: 16px;
+  /* line-height: 20px; */
+  cursor: pointer;
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Old versions of Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+
+.green-outlined-button a:hover {
+  opacity: 0.9;
+  color: white;
+  cursor: pointer;
 }
 
 .green-button:hover {
