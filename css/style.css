@@ -20,8 +20,26 @@ h6 {
 
 a {
   text-decoration: none;
-  color: none;
-  color: #fff;
+  color: #1774e4;
+}
+
+.product-dropdown-button:focus {
+  box-shadow: unset !important;
+}
+
+.product-dropdown-menu {
+  padding: 0;
+  border-radius: 4px;
+}
+
+.product-dropdown-menu .dropdown-item {
+  padding: 12px 25px;
+  border-radius: 5px;
+}
+
+.product-dropdown-menu .dropdown-item:hover {
+  background-color: inherit;
+  color: #1774e4;
 }
 
 /*a:hover {
@@ -111,7 +129,6 @@ a {
 
 .nav-button a {
   text-decoration: none;
-  color: none;
   color: #212529;
 }
 
@@ -194,6 +211,18 @@ a {
   /* Internet Explorer/Edge */
   user-select: none;
   /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+
+.green-button a {
+  color: white;
+}
+
+.green-outlined-button a {
+  color: white;
+}
+
+.chrome-web-store-download-img {
+  height: 80px;
 }
 
 .green-button {
@@ -350,6 +379,20 @@ a {
   transform: translate(-50%, -50%);
 }
 
+.wand-benefit-card-overview {
+  width: fit-content;
+  min-width: 150px;
+  position: absolute;
+  padding: 12px;
+  background: linear-gradient(323deg, #3aa5b5 3.15%, #0760f7 100%);
+  font-weight: 500;
+  border-radius: 10px;
+  top: 0;
+  color: white;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .pricing-card-container {
   width: 100%;
   position: relative;
@@ -365,6 +408,23 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.wand-benefit-card-container {
+  width: 90%;
+  position: relative;
+  text-align: center;
+  font-size: 16px;
+  line-height: 20px;
+  background: #ffffff;
+  border: 1px solid #3b3b3b;
+  padding: 24px;
+  border-radius: 10px;
+  min-height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 
@@ -522,6 +582,10 @@ a {
     padding: 8px 4px;
     font-size: 16px;
     line-height: 20px;
+  }
+
+  .chrome-web-store-download-img {
+    height: 65px;
   }
 
   #youtube-demo-container {
@@ -704,6 +768,10 @@ a {
   text-align: center;
   border: 1px solid #1774e4;
   user-select: none;
+}
+
+.footer-link {
+  color: white !important;
 }
 
 .footer-link:hover {
